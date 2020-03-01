@@ -1,0 +1,49 @@
+﻿Note Book Application
+A simple Application for storing Notes in Groups as likely to be a sticky notes
+- New button - Create a New Notes
+- Edit button - To edit any selected note 
+- Delete button - To delete your old Notes
+- Search button - To search your notes filtering your title
+- Search All button - To show all your notes in table form
+- Save button - To save your New or Edited Notes
+- Home button - To go to application home scene
+
+V1.0
+- Basic Launch of Application
+
+V1.1
+- No Additional DB management required as it is handled in JAR
+- Improvements in Search All button handling
+- Resizing of windows is Removed and Maximize Button in disabled
+
+V1.2.0
+- Align label for error message on Home and Edit scene with read color
+- Restricting Title field to 30 characters while key press
+- Sort table data in ascending order of Title column on HOME scene
+- Use wrap text in textArea Note of Description on EDIT scene
+- Escape special char from title and description when stored in DB
+​
+V1.2.1
+- Add Edit Button event on Double click of each row
+- Edit scene will save your note even when clicked on 'Home' button
+- Change the button color when ever hovering is done
+​- Change the UI design to a decent good looking application
+
+v1.2.1
+- Added Edit Button event on Double click of each row
+- Edit scene will save your note even when clicked on 'Home' button
+- Change the button color when ever hovering is done
+- Improved UI of Note Book Application
+
+v1.3
+- Use Login Credentials to save Notes on User bases
+- Option to create new user is available with click of 'Create New User' on Login scene
+- Option to change password is available with click of 'Forgot Password' on Login scene
+- Logout button feature is added for user to Logout
+
+v1.3.1
+- Resolving database lock issue when adding, editing or deleting a note
+- Title issue resolved maintaining an ID each notes
+- Home button will not save the data from here on
+- Deleting Notes on home scene based on Note ID but not Title
+​

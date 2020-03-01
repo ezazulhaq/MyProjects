@@ -1,0 +1,16 @@
+Deployment steps to build JAR file
+
+1. Create a 'package' folder in build.
+2. Copy .exe and setup ICONs into package directory if any.
+4. Open build.xml, check the workspace path and replace to current workspace path is required.
+3. Now Run your build.xml as 'Ant Build' and check the logs in 'Console' if your AddressApp is successfully deployed.
+4. Your Application will be ready in 'deploy' folder.
+5. Double Click NoteBookApp.jar in deploy folder to run the application.
+
+
+Note:
+If you update or make any code changes in your Project and you want a fresh deployment, delete the following files from build folder(root)
+** Delete build, deploy, dist, externalLibs, project and projectRefs
+
+Follow the step from below URL to create .EXE (Executable File) for your java project
+** https://www.wikihow.com/Create-an-Executable-File-from-Eclipse
