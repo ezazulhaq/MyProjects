@@ -102,7 +102,8 @@ public class NotesOverviewController implements Initializable{
 							    controller.setTempTitle(selectedNote.getNoteTitle().toString());
 							    
 							    Scene screen2 = new Scene(pane);
-							    Stage window = (Stage) ((javafx.scene.control.TableRow<Notes>) event.getSource()).getScene().getWindow();
+							    @SuppressWarnings("unchecked")
+								Stage window = (Stage) ((javafx.scene.control.TableRow<Notes>) event.getSource()).getScene().getWindow();
 							    
 							    window.setScene(screen2);
 							    window.show();
